@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerControl : MonoBehaviour
+public class MouseCursor : MonoBehaviour
 {
     public RectTransform transform_cursor;
     public RectTransform transform_icon;
@@ -27,8 +27,6 @@ public class PlayerControl : MonoBehaviour
         if (transform_icon.GetComponent<Graphic>())
             transform_icon.GetComponent<Graphic>().raycastTarget = false;
     }
-
-    //CodeFinder 코드파인더
     private void Update_MousePosition()
     {
         Vector2 mousePos = Input.mousePosition;
