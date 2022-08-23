@@ -39,4 +39,8 @@ public class MouseCursor : MonoBehaviour
         Debug.Log(message);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+    }
 }
