@@ -10,6 +10,8 @@ public class SceneManager : MonoBehaviour
 
     [SerializeField]
     private GameObject first_Scene, second_Scene, third_Scene;
+    [SerializeField]
+    private GameObject WaitingRoom;
 
     public void ClickStartBtn()
     {
