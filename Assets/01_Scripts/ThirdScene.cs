@@ -10,7 +10,7 @@ public class ThirdScene : MonoBehaviour
     private GameObject back_btn;
 
     [SerializeField]
-    private GameObject second_Scene, third_Scene, fourth_Scene;
+    private GameObject second_Scene, third_Scene, fourth_Scene, player;
     [SerializeField]
     private GameObject WaitingRoom;
 
@@ -20,6 +20,8 @@ public class ThirdScene : MonoBehaviour
         third_Scene.SetActive(false);
         WaitingRoom.SetActive(false);
         fourth_Scene.SetActive(true);
+        player.SetActive(true);
+
     }
 
     public void OnClickBack()

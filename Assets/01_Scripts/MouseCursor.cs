@@ -36,11 +36,5 @@ public class MouseCursor : MonoBehaviour
         transform_icon.position = transform_cursor.position + (new Vector3(w, h) * 0.5f);
 
         string message = mousePos.ToString();
-        Debug.Log(message);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
     }
 }
