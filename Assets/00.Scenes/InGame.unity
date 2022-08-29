@@ -458,7 +458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &186998610
 Transform:
   m_ObjectHideFlags: 0
@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 292905600}
   - component: {fileID: 292905601}
   m_Layer: 0
-  m_Name: "\uBD88\uAEBC\uC9C4"
+  m_Name: Off
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2980,8 +2980,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1075454420}
   - component: {fileID: 1075454421}
+  - component: {fileID: 1075454422}
   m_Layer: 0
-  m_Name: Swich
+  m_Name: Switch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3027,6 +3028,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6420505, y: 1.6063833}
   m_EdgeRadius: 0
+--- !u!114 &1075454422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075454419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc2c6fa4bd03de44a718920819eed8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  off: {fileID: 292905599}
 --- !u!1 &1119636419
 GameObject:
   m_ObjectHideFlags: 0

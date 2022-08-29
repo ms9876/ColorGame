@@ -16,6 +16,12 @@ public class Scene : MonoBehaviour
         if (collision.tag == "Die")
         {
             fourth_Scene.SetActive(false);
+            five_Scene.SetActive(false);
+            six_Scene.SetActive(false);
+            seven_Scene.SetActive(false);
+            eight_Scene.SetActive(false);
+            nine_Scene.SetActive(false);
+            ten_Scene.SetActive(false);
             player.SetActive(false);
             DieScene.SetActive(true);
             mouse.SetActive(true);
