@@ -13,6 +13,8 @@ public class ThirdScene : MonoBehaviour
     private GameObject second_Scene, third_Scene, fourth_Scene, player;
     [SerializeField]
     private GameObject WaitingRoom;
+    [SerializeField]
+    private GameObject mouse;
 
 
     public void OnClickStart()
@@ -20,6 +22,7 @@ public class ThirdScene : MonoBehaviour
         third_Scene.SetActive(false);
         WaitingRoom.SetActive(false);
         fourth_Scene.SetActive(true);
+        mouse.SetActive(false);
         player.SetActive(true);
 
     }

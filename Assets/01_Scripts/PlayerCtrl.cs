@@ -17,6 +17,5 @@ public class PlayerCtrl : MonoBehaviour
         mousePos = camera.ScreenToWorldPoint(Input.mousePosition); 
 
         transform.position = mousePos;
-        Debug.Log(mousePos);
     }
 }

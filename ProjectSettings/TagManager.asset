@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Exit
   - Die
+  - Exit1
+  - Exit2
+  - Exit3
+  - Exit4
+  - Exit5
+  - Exit6
   layers:
   - Default
   - TransparentFX
