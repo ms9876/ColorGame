@@ -9,12 +9,13 @@ public class Scene : MonoBehaviour
     [SerializeField]
     private GameObject mouse;
     [SerializeField]
-    private GameObject fourth_Scene, five_Scene, six_Scene, seven_Scene, eight_Scene, nine_Scene, ten_Scene, end_Scene;
+    private GameObject fourth_Scene, five_Scene, six_Scene, seven_Scene, eight_Scene, nine_Scene, ten_Scene, end_Scene, playScene;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Die")
         {
+            playScene.SetActive(false);
             fourth_Scene.SetActive(false);
             five_Scene.SetActive(false);
             six_Scene.SetActive(false);
@@ -67,6 +68,8 @@ public class Scene : MonoBehaviour
         {
             ten_Scene.SetActive(false);
             end_Scene.SetActive(true);
+            player.SetActive(false);
+            mouse.SetActive(true);
         }
     }
 }

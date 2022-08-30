@@ -9,7 +9,7 @@ public class SceneManager : MonoBehaviour
     private Button Start_btn;
 
     [SerializeField]
-    private GameObject first_Scene, second_Scene, third_Scene;
+    private GameObject first_Scene, second_Scene, third_Scene, end_Scene;
     [SerializeField]
     private GameObject WaitingRoom;
 
@@ -23,5 +23,11 @@ public class SceneManager : MonoBehaviour
     {
         second_Scene.SetActive(false);
         third_Scene.SetActive(true);
+    }
+
+    public void ClickEnd()
+    {
+        end_Scene.SetActive(false);
+        first_Scene.SetActive(true);
     }
 }
